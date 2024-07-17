@@ -1,0 +1,6 @@
+#index para imprimir partes específicas do código
+valor = str(99.75)
+#index 01234
+
+print(valor[2:])
+#números negativos iniciam do final
