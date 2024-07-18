@@ -1,0 +1,14 @@
+velocidade = 100
+
+if velocidade > 110: 
+  print('Acima da velocidade permitida')
+  print('Favor reduzir a sua velocidade')
+  # os prints acima estão dentro do if, por isso estão indentados
+
+elif velocidade < 60:
+  print('Favor dirigir acima de 80km/h')
+  # pode se ter quantos elif quiser
+
+else:
+  print('Velocidade OK')
+  # o print acima está indentado dentro do else, por isso está fora do if
