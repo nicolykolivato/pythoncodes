@@ -1,0 +1,23 @@
+# == for loop nested ==
+
+  # outer loop (loop de fora)
+    # inner loop (loop de dentro)
+
+# Criar um retangulo de 6x6
+
+'''
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+'''
+linhas = 6
+colunas = 6
+simbolo = '@'
+
+for l in range(linhas): # 1. irá rodar 6x
+  for c in range(colunas): # 3. irá rodar 6x
+    print(simbolo, end='')
+  print() # 2. pular linha, após o outer loop
